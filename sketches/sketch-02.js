@@ -3,7 +3,7 @@ const math = require('canvas-sketch-util/math')
 const random = require('canvas-sketch-util/random')
 
 const settings = {
-  dimensions: [ 1000  , 1000 ]
+  dimensions: [ 1080  , 1080 ]
 };
 
 
@@ -108,13 +108,27 @@ for(let i = 0; i < numbersOfCopy ; i++){
   context.translate(x,y)
   context.rotate(- angle)
   // context.scale(1,1)
-  context.scale( random.range(1 , 3) , 1)
+  context.scale( random.range(0.1 , 2) , 1)
 
   context.beginPath();
   context.rect( -w * 0.5, -h * 0.5 ,w,h)
   context.fill()
   context.restore();
-}
+
+  context.save();
+  context.translate(centerX, centerY)
+  context.rotate(- angle)
+
+  context.lineWidth = 20
+
+  context.beginPath();
+  context.arc( 0,0,radius,slice * -0.3,slice * 0.3);
+  context.stroke();
+
+  context.restore();
+
+
+    } 
   };
 };
 
