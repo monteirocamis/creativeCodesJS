@@ -1,6 +1,7 @@
 const canvasSketch = require('canvas-sketch');
 const random = require('canvas-sketch-util/random')
 const math = require('canvas-sketch-util/math');
+const { getRandomSeed } = require('canvas-sketch-util/random');
 
 const settings = {
   dimensions: [ 1080, 1080 ],
@@ -10,7 +11,7 @@ const settings = {
 const sketch = ({context , width , height}) => {
   const agents = []
 
-	for (let i = 0; i < 40; i++) {
+	for (let i = 0; i < 40; i++) { 
 		const x = random.range(0, width);
 		const y = random.range(0, height);
 
@@ -21,7 +22,19 @@ const sketch = ({context , width , height}) => {
     context.fillStyle = 'white';
     context.fillRect(0, 0, width, height);
 
-    
+	// each agent, we go to other agent
+	for (let i = 0; i < agents.length; i++) {
+	const agent = agents[i];
+
+		for (let j = 0; j < agents.length; j++){
+			const other = agents[j];
+
+			//desenhar linhas
+			context.beginPath();
+			context.moveTo(agent.pos.x , agent.pos.y);
+			context.
+		}
+	}
     agents.forEach(agent => {
 			agent.update();
 			agent.draw(context);
