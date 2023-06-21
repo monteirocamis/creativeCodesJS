@@ -19,3 +19,16 @@ linhas - stroke
 - moveTo
 
 ## aula 4 
+movimentaçoes pt1
+- crearRect
+- requestAnimationFrame
+
+## aula 5
+movimentaçoes pt2
+- limitar espaço da
+
+
+## aula 6
+movimentaçoes pt3
+- borda
+- desce lado

@@ -11,7 +11,28 @@
 ### project 3 - sketch-03 bubbles
 ![image](https://user-images.githubusercontent.com/26682838/190840911-eef8d7e5-64d2-41ca-99fc-7c64e2339a33.png)
 
+# canvas intro from youtube - aulas de canvas no youtube 
+CFB Cursos 
+https://www.youtube.com/watch?v=LQpxDIBPDMA&list=PLx4x_zx8csUgPYODrHLlIw3ibmGBudkHr
 
+## aula1
+ - canvas
+ - fillStyle
+ - fillRect
+ - rect
+
+ ## aula 2
+- onload da funcao desenharCanvas
+ - clearRect
+
+ ## aula 3
+linhas - stroke
+- lineTo
+- stroke
+- moveTo
+
+
+## aula 4 
 ______________________
 ## install canvas
 npm install canvas-sketch-cli --global
