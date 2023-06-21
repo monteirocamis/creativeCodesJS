@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> canvas do yt</title>
+</head>
+<body>
+    <style>
+      
+        canvas{
+            /* width: 95vw; */
+            /* height: 95vh; */
+            border: 5px solid purple;
+        }
+    </style>
+    
+    <canvas id="desenho" width="500" height="500">
+        <p class=""> canvas nao suportado</p>
+    </canvas>
+
+    <script>
+        let canvas = document.getElementById("desenho");
+        let context = canvas.getContext('2d');
+
+
+        //criaçao de retangulo
+        context.fillStyle="purple"; //preenchimento com a cor
+        context.fillRect(0,0,100,100) //cria um retangulo e preenche com o ultimo style
+
+         //criaçao de outro retangulo
+         context.fillStyle="rgba(255,0,0,0.5"; 
+        context.fillRect(50,50,100,100) 
+
+
+        
+    </script>
+</body>
+</html>

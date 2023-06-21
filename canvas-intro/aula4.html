@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> canvas do yt</title>
+    <script>
+            let px = 0 ;
+            let anima;
+
+        function desenharCanvas(){
+            // let posicaoX=50;
+            // let posicaoY=50;
+
+            
+            let canvas = document.getElementById("desenho1");
+            let context = canvas.getContext('2d');
+            
+            context.clearRect(0,0,500,500) // limpar
+            context.fillStyle='green'
+            context.fillRect(px,0,50,50) // nao especifica cor ele vai por padrao preto
+            // -------------(x,y,  ,  )
+            
+            px++
+            anima = requestAnimationFrame(desenharCanvas)
+        }
+
+
+
+    </script>
+</head>
+<body onload="desenharCanvas()">
+    <style>
+      
+        canvas{
+            
+            /* width: 95vw; */
+            /* height: 95vh; */
+            border: 5px solid purple;
+        }
+    </style>
+    
+    <canvas id="desenho1" width="500" height="500">
+        <p class=""> canvas nao suportado</p>
+    </canvas>
+
+</body>
+</html>
