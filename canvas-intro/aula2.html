@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> canvas do yt</title>
+    <script>
+        function desenharCanvas(){
+            let posicaoX=50;
+            let posicaoY=50;
+            let canvas = document.getElementById("desenho");
+            let context = canvas.getContext('2d');
+            
+            
+            //criaçao de retangulo
+            context.fillStyle="purple"; //preenchimento com a cor
+            context.rect(posicaoX,posicaoY,200,200) //cria um retangulo e preenche com o ultimo style
+            context.fill();
+     
+            context.clearRect(0,0,50,50); // apaga area (x,y, altura, largura)
+
+
+     
+        }
+
+
+
+    </script>
+</head>
+<body onload="desenharCanvas()">
+    <style>
+      
+        canvas{
+            /* width: 95vw; */
+            /* height: 95vh; */
+            border: 5px solid purple;
+        }
+    </style>
+    
+    <canvas id="desenho" width="500" height="500">
+        <p class=""> canvas nao suportado</p>
+    </canvas>
+
+</body>
+</html>
