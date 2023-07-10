@@ -17,6 +17,10 @@
 
 #### project 3 - sketch-03 bubbles
 ![image](https://user-images.githubusercontent.com/26682838/190840911-eef8d7e5-64d2-41ca-99fc-7c64e2339a33.png)
+### project 4 - sketch-04 lines
+
+
+
 
 #### project 4 - sketch-04 lines
 <img width="509" alt="Screenshot 2023-07-10 at 15 53 15" src="https://github.com/monteirocamis/creativeCodesJS/assets/26682838/5d7c174e-a97e-4020-be8b-c55b5f05cc2c">
