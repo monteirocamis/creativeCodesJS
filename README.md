@@ -89,3 +89,12 @@ npx canvas-sketch-cli src/foobar.js --build
 npx canvas-sketch-cli src/foobar.js --hot### project 1
 
 
+
+# save mp4 with ffmpeg
+
+sudo npm install @ffmpeg-installer/ffmpeg --global
+
+canvas-sketch sketch-03.js --output=output/03 --stream
+
+cmd + shift + s  --> 1x inicia
+cmd + shift + s --> 2x finaliza
