@@ -17,15 +17,17 @@
 
 #### project 3 - sketch-03 bubbles
 ![image](https://user-images.githubusercontent.com/26682838/190840911-eef8d7e5-64d2-41ca-99fc-7c64e2339a33.png)
-### project 4 - sketch-04 lines
-linhas que aparecem randomicamente e caso encontre as bordas muda pro outro estremo da tela
-
-
-
 #### project 4 - sketch-04 lines
 <img width="509" alt="Screenshot 2023-07-10 at 15 53 15" src="https://github.com/monteirocamis/creativeCodesJS/assets/26682838/5d7c174e-a97e-4020-be8b-c55b5f05cc2c">
 
+
+#### project 4 - sketch-04 lines
+linhas que aparecem randomicamente e caso encontre as bordas muda pro outro estremo da tela
+![Screenshot 2023-08-22 at 15 51 38](https://github.com/monteirocamis/creativeCodesJS/assets/26682838/14acc245-f8c6-44bf-bf62-09003b0b5320)
+
+
 #### project 5 - sketch-05 broken lines
+
 
 
 
