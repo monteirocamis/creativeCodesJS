@@ -18,7 +18,7 @@
 #### project 3 - sketch-03 bubbles
 ![image](https://user-images.githubusercontent.com/26682838/190840911-eef8d7e5-64d2-41ca-99fc-7c64e2339a33.png)
 ### project 4 - sketch-04 lines
-
+linhas que aparecem randomicamente e caso encontre as bordas muda pro outro estremo da tela
 
 
 
@@ -56,6 +56,9 @@ linhas - stroke
 
 
 ## aula 4 
+agentes sketch
+- animate
+- roll 
 ______________________
 ## install canvas
 npm install canvas-sketch-cli --global
